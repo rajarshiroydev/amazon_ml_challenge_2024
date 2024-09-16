@@ -1,0 +1,15 @@
+Ideas
+1. try train test split and ML without ocr
+2. move sequentially through the text and collect the numerical values and units. join them. make a list of all such finds.
+3. use ml to predict which value unit pair to be used.
+4. use ocr cleaning tools to better extract the text
+5. knn to predict empty values
+6. check if the correct unit is predicted based on entity name (eg: any unit of weight is used for eneity_name: item_weight). improving this can improve score for sure
+7. use llm to predict the entity_value based on entity_name and extracted_text
+
+Problems
+- nil - 
+
+Problems solved
+1. millimetre, metre mismatch
+2. kW and kilowatt conversion
